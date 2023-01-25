@@ -1,0 +1,122 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.home{
+
+     background-image: url('./bbbbg.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    
+
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 1%;
+    letter-spacing: 0.1px;
+    word-spacing: 0.1px;
+
+
+}
+
+.home{
+
+    color: white;
+    font-size: 20px;
+}
+
+.home img{
+
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    align-items: center;
+  
+ }
+
+.home img:hover{
+
+    top: 30%;
+}
+
+span{
+
+    padding-left: 7px;
+    color: #ea1538; 
+}
+
+nav ul li{
+
+    display: inline-block;
+    padding: 10px 12px;
+}
+
+nav li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    color:#ea1538;
+   } 
+
+button{
+    border: none;
+    position: absolute;
+    font-size: 17px;
+    height: 45px;
+    width: 130px;
+    background: #ea1538;
+   font-weight: bold;
+    border-radius: 50px;
+    top: 60%;
+    left: 49%;
+  
+}
+
+button:hover{
+    color: white;
+    font-size: 15px;
+
+}
+
+.home img{
+    
+    border-radius: 50px; 
+    height: 100px;
+    width: 100px;
+    
+}
+
+.aboutme{
+    background-color: black;
+   
+    color: white;
+}
+.heading{
+
+    font-size: 15px;
+
+    
+}
+.abt{
+    
+    
+}
+
